@@ -75,13 +75,13 @@ Sub alphabetical_testing()
       
         'Conditional formatting for yearly_change
         If yearly_change > 0 Then
-            ws.Range("J" & Summary_Table_Row).Interior.ColorIndex = 4
+            ws.Range("L" & Summary_Table_Row).Interior.ColorIndex = 4
         
         ElseIf yearly_change < 0 Then
-            ws.Range("J" & Summary_Table_Row).Interior.ColorIndex = 3
+            ws.Range("L" & Summary_Table_Row).Interior.ColorIndex = 3
         
         Else
-            ws.Range("J" & Summary_Table_Row).Interior.ColorIndex = 0
+            ws.Range("L" & Summary_Table_Row).Interior.ColorIndex = 0
         
         End If
       
